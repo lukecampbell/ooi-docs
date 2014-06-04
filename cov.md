@@ -36,4 +36,14 @@ def _easy_dict(data_dict):
 
 You can use None's to specify open intervals
 
+```python
+
+from coverage_model import ConstantOverTime
+
+data_dict = {
+  'sparseness' : ConstantOverTime('sparseness', sparse_value, time_start=time0, time_end=None)
+}
+
+```
+
 
